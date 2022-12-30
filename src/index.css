@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background: #fff;
+  position: relative;
+}
+.container{
+@apply max-w-full mx-auto
+}
+.footer{
+  position: absolute;
+  bottom: 0px;
+}
