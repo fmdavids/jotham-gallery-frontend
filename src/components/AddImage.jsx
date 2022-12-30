@@ -19,8 +19,7 @@ const AddImge = () => {
       data.append("file", file);
       data.append("desc", desc);
 
-      try {  
-        // await axios.post("https://localhost/api/postphoto/", data, {     
+      try {   
         await axios.post("https://jotham-gallery-backend.onrender.com/api/postphoto/", data, {     
           headers: { "Content-Type": "multipart/form-data" }});
           navigate('/')
